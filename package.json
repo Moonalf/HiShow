@@ -10,12 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^3.13.0",
-    "vue": "latest",
-    "vue-router": "latest",
     "@element-plus/nuxt": "^1.0.10",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "less": "^4.2.0",
-    "less-loader": "^12.2.0"
+    "less-loader": "^12.2.0",
+    "nuxt": "^3.13.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "rollup": "^3.29.4"
   }
 }
