@@ -89,6 +89,11 @@ onMounted(() => {
   height: 6vh !important;
   line-height: 6vh !important;
   padding: 0 !important;
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .el-menu.nav-menu {
