@@ -1,14 +1,18 @@
 <template>
   <div class="main">
+    <div class="gatha">
+      我们因戏相识、因戏相知。凡你来过，便成为海中的一滴水、树上的一片叶。
+    </div>
     <div
       v-for="(things_per_year, idx) in things"
       :key="things_per_year.year"
       class="things"
     >
-      <div class="year">
-        <div class="line">——————</div>
-        <div>{{ things_per_year.year }}</div>
-        <div class="line">——————</div>
+      <div class="year-block">
+        <div class="line">
+          ——————————————————————————————————————————————————————————————————————————————————————————
+        </div>
+        <div class="year">{{ things_per_year.year }}</div>
       </div>
       <div v-if="things_per_year.managers.length > 5" class="managers">
         <div class="vice">
@@ -82,12 +86,21 @@ const handleExit = () => {
   align-items: center;
   width: 95%;
   margin: auto;
+  .gatha {
+    width: 80%;
+    font-size: 1.5vh;
+    color: black;
+    font-style: italic;
+    text-align: justify;
+    text-indent: 3vh;
+    margin-top: 3vh;
+  }
   .things {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    .year {
+    .year-block {
       margin-top: 4vh;
       width: 100%;
       color: white;
@@ -96,10 +109,20 @@ const handleExit = () => {
       font-style: italic;
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: space-between;
       white-space: nowrap;
-      .line {
+      overflow: hidden;
+      position: relative;
+      .year {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
         text-align: center;
+        background: white;
+        padding: 0 1vh;
+        color: rgba(128, 0, 128, 1);
+        border-radius: 1vh;
       }
     }
     .managers {
