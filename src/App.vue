@@ -1,18 +1,20 @@
 <template>
   <div class="container">
-    <HeaderBar></HeaderBar>
+    <HiShowHeader />
     <!-- <RouterView /> -->
     <router-view v-slot="{ Component, route }">
       <keep-alive :include="['HomePage', 'InfoPage']">
         <component :is="Component" :key="route.name" />
       </keep-alive>
     </router-view>
-    <FooterNav></FooterNav>
+    <HiShowNavbar />
   </div>
 </template>
 
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+import HiShowHeader from './components/HiShowHeader.vue'
+import HiShowNavbar from './components/HiShowNavbar.vue'
 </script>
 
 <style lang="less">
@@ -25,7 +27,7 @@ html {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: rgba(32, 32, 32, 1);
     #app {
       display: flex;
       flex-direction: row;
@@ -35,21 +37,20 @@ html {
       margin: 0;
       padding: 0;
       background-color: wheat;
-
+      color: #000;
       .container {
         width: min(100vw, 50vh);
         height: 100vh;
         margin: 0 auto;
-        padding-top: 13vh;
-        padding-bottom: 7vh;
+        padding-top: 15vh;
         background: linear-gradient(
           135deg,
-          rgba(0, 83, 117, 0) 0%,
-          rgba(0, 83, 117, 0.2) 20%,
-          rgba(0, 83, 117, 0.4) 40%,
-          rgba(0, 83, 117, 0.6) 60%,
-          rgba(0, 83, 117, 0.8) 80%,
-          rgba(0, 83, 117, 1) 100%
+          rgba(128, 0, 128, 0) 0%,
+          rgba(128, 0, 128, 0.2) 20%,
+          rgba(128, 0, 128, 0.4) 40%,
+          rgba(128, 0, 128, 0.6) 60%,
+          rgba(128, 0, 128, 0.8) 80%,
+          rgba(128, 0, 128, 1) 100%
         );
       }
     }
