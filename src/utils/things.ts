@@ -918,8 +918,8 @@ export default [
     shows: [
       {
         title: '无证之罪',
-        cover: '',
-        introbg: '',
+        cover: 'shows/wzzz/cover.webp',
+        introbg: 'shows/wzzz/introbg.webp',
         intros: [
           '一个闷热潮湿的酷暑，一间法学院的教室内，一次英美法课程的补考，一场矛盾不断的模拟法庭，一起富二代弑父案，六个身份不同的普通人，一个临时组成的中国家长陪审团……',
           '随着审判的进行，疑点出现，每个人的故事也逐渐浮出水面……你知道的，愤怒不是出口，是逃避的理由，每个人都有软弱的时候。再勇敢一次吧，向真理低头是幸福的事。',
@@ -974,7 +974,15 @@ export default [
             avatar: 'members/2025-2026/liaolh.webp',
           },
         ],
-        photos: [],
+        photos: [
+          'shows/wzzz/001.webp',
+          'shows/wzzz/002.webp',
+          'shows/wzzz/003.webp',
+          'shows/wzzz/004.webp',
+          'shows/wzzz/005.webp',
+          'shows/wzzz/006.webp',
+          'shows/wzzz/007.webp',
+        ],
       },
       {
         title: '自杀既遂',
@@ -1008,7 +1016,14 @@ export default [
             avatar: 'members/2025-2026/zhangpy.webp',
           },
         ],
-        photos: [],
+        photos: [
+          'shows/zsjs/001.webp',
+          'shows/zsjs/002.webp',
+          'shows/zsjs/003.webp',
+          'shows/zsjs/004.webp',
+          'shows/zsjs/005.webp',
+          'shows/zsjs/006.webp',
+        ],
       },
     ],
   },

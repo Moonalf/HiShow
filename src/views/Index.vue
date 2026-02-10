@@ -7,10 +7,12 @@
     </div>
     <div class="title">联系我们</div>
     <div class="content">
-      本网站由海树第三届副社长张纯鑫维护，有关于网站的信息校正或是UI建议，欢迎联系：
+      本网站由海树第三届副社长张纯鑫维护，有关于网站的信息校正或是UI建议，欢迎联系Email：<u
+        >916824242@qq.com</u
+      >
     </div>
-    <div class="content">Wechat：<u>Ma_Mei11eure_Ennemie</u></div>
-    <div class="content">Email：<u>916824242@qq.com</u></div>
+    <div class="content">其实网站也是开源的，有心者可接力维护：</div>
+    <div class="content"><u>https://github.com/Moonalf/HiShow</u></div>
   </div>
 </template>
 
