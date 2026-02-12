@@ -6,11 +6,6 @@
       :key="'navitem' + index"
       @click="item.click2router"
     >
-      <!-- <div class="nav_icon">
-        <img
-          :src="prefix + 'common/' + item.name + '_' + (item.selected ? 'light' : 'dark') + '.png'"
-        />
-      </div> -->
       <div>{{ item.title }}</div>
     </div>
   </div>
@@ -58,14 +53,14 @@ watch(
 
 <style lang="less" scoped>
 .hishow_navbar {
+  box-sizing: border-box;
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  position: fixed;
-  bottom: 0;
-  width: min(100vw, 50vh);
-  height: 6vh;
+  width: 7.5rem;
+  height: 0.8rem;
   background-color: rgba(240, 255, 255, 1);
   z-index: 5;
   overflow: hidden;
@@ -86,19 +81,10 @@ watch(
       rgba(255, 255, 255, 1) 100%
     );
     color: rgba(128, 0, 128, 1);
-    font-size: 2vh;
+    font-size: 0.3rem;
     font-weight: bold;
     transition: all 0.2s ease-in-out;
-    .nav_icon {
-      height: 50%;
-      margin-right: 0.5vh;
-      img {
-        height: 100%;
-        object-fit: contain;
-      }
-    }
     &.selected {
-      transform: scale(1.04);
       background: linear-gradient(
         180deg,
         rgba(128, 0, 128, 0.5) 0%,

@@ -57,7 +57,7 @@ const ca_rows = ref(Math.ceil(props.show.casts.length / ca_col))
 <style lang="less" scoped>
 .showpreview {
   position: fixed;
-  width: min(100vw, 50vh);
+  width: 7.5rem;
   height: 100vh;
   top: 0;
   left: 50%;
@@ -70,13 +70,13 @@ const ca_rows = ref(Math.ceil(props.show.casts.length / ca_col))
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 2vh;
+    bottom: 0.8rem;
     left: 0;
-    width: 10vh;
-    height: 5vh;
+    width: 1.5rem;
+    height: 0.8rem;
     background: rgba(255, 255, 255, 0.8);
-    border-radius: 0 2.5vh 2.5vh 0;
-    font-size: 2vh;
+    border-radius: 0 0.4rem 0.4rem 0;
+    font-size: 0.3rem;
     font-weight: bold;
 
     &:hover {
@@ -84,48 +84,53 @@ const ca_rows = ref(Math.ceil(props.show.casts.length / ca_col))
     }
   }
   .showpreview_container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
     width: 90%;
     height: 100%;
-    padding: 7vh 0;
+    padding: 1rem 0;
     margin: auto;
-    position: relative;
-    overflow-y: scroll;
-    /* 隐藏滚动条（兼容多浏览器） */
+    overflow-y: auto;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE 10+ */
+
     .title {
-      font-size: 2.5vh;
-      font-weight: bold;
       width: 100%;
+      font-size: 0.5rem;
+      font-weight: bold;
       text-align: center;
       color: rgba(250, 250, 210, 1);
     }
+
     .subtitle {
-      font-size: 2vh;
-      text-indent: 1vh;
-      margin: 1vh 0;
-      margin-top: 5vh;
+      width: 100%;
+      margin-top: 0.5rem;
+      border-radius: 0.1rem;
+      background: linear-gradient(90deg, rgba(250, 250, 210, 1) 0, rgba(250, 250, 210, 0) 50%);
+      font-size: 0.36rem;
+      text-indent: 0.1rem;
       font-weight: bold;
       color: black;
-      width: 100%;
-      border-radius: 0.5vh;
-      background: linear-gradient(90deg, rgba(250, 250, 210, 1) 0, rgba(250, 250, 210, 0) 50%);
     }
     .introbg {
       position: absolute;
-      top: 12vh;
+      top: 2rem;
       right: 0;
-      width: 32vh;
-      height: 18vh;
-      object-fit: contain;
+      width: 4.8rem;
+      height: 2.7rem;
+      object-fit: cover;
       z-index: -2;
     }
     .shadow {
       position: absolute;
-      top: 12vh;
+      top: 2rem;
       right: 0;
-      width: 32vh;
-      height: 18vh;
+      width: 4.8rem;
+      height: 2.7rem;
       z-index: -1;
       background: radial-gradient(
         ellipse closest-side at center,
@@ -135,41 +140,39 @@ const ca_rows = ref(Math.ceil(props.show.casts.length / ca_col))
     }
     .intro {
       width: 100%;
-      font-size: 1.5vh;
+      font-size: 0.26rem;
       color: rgba(250, 250, 210, 1);
-      text-indent: 3vh;
+      text-indent: 0.4rem;
       text-align: justify;
-      margin: 1vh 0;
+      margin: 0.1rem 0;
     }
     .intro:first-of-type {
       width: 50%;
     }
     .pdrow {
-      width: 100%;
-      padding-left: 1vh;
-      margin: 1vh 0;
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
       align-items: center;
+      width: 100%;
+      margin-top: 0.1rem;
     }
     .carow {
-      width: 100%;
-      padding-left: 1vh;
-      margin: 1vh 0;
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
       align-items: center;
+      width: 100%;
+      margin-top: 0.2rem;
     }
     .photo {
-      width: 90%;
-      margin: 1vh auto;
+      width: 100%;
+      margin: 0.1rem 0;
 
       img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
       }
     }
   }

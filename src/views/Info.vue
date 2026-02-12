@@ -89,23 +89,22 @@ const handleScroll = () => {
 <style lang="less" scoped>
 .info_page {
   box-sizing: border-box;
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 85vh;
-  padding-bottom: 7vh;
   overflow-x: hidden;
   overflow-y: auto;
 
   .gatha {
     width: 80%;
-    font-size: 1.5vh;
+    font-size: 0.24rem;
     color: black;
     font-style: italic;
     text-align: justify;
-    text-indent: 3vh;
-    margin-top: 3vh;
+    text-indent: 0.4rem;
+    margin-top: 0.3rem;
   }
   .things {
     display: flex;
@@ -117,10 +116,11 @@ const handleScroll = () => {
       flex-direction: row;
       justify-content: space-between;
       position: relative;
-      margin-top: 4vh;
       width: 90%;
+      margin-top: 0.5rem;
+      margin-bottom: 0.1rem;
       color: white;
-      font-size: 2vh;
+      font-size: 0.3rem;
       font-weight: bold;
       font-style: italic;
       white-space: nowrap;
@@ -132,9 +132,9 @@ const handleScroll = () => {
         transform: translateX(-50%);
         text-align: center;
         background: white;
-        padding: 0 1vh;
+        padding: 0 0.2rem;
         color: rgba(128, 0, 128, 1);
-        border-radius: 1vh;
+        border-radius: 0.1rem;
       }
     }
     .managers {
@@ -142,24 +142,25 @@ const handleScroll = () => {
       flex-direction: row;
       align-items: center;
       justify-content: center;
+      margin-top: 0.1rem;
       .leader {
-        width: 12vh;
-        height: 12vh;
-        margin: 1vh;
+        width: 2rem;
+        height: 2rem;
+        margin: 0 0.2rem;
       }
       .vice {
-        width: 10vh;
-        height: 10vh;
-        margin: 1vh;
+        width: 1.6rem;
+        height: 1.6rem;
+        margin: 0 0.2rem;
       }
       .placeholder {
-        width: 10vh;
-        height: 10vh;
-        margin: 1vh;
+        width: 1.6rem;
+        height: 1.6rem;
+        margin: 0 0.2rem;
       }
     }
     .showcard {
-      margin: 0.5vh 0;
+      margin-top: 0.1rem;
     }
   }
 }

@@ -25,10 +25,13 @@ const prefix = import.meta.env.BASE_URL
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 12vh;
-  height: 16vh;
-  border-radius: 0.5vh;
-  margin-right: 2vh;
+  width: 2.1rem;
+  height: 2.8rem;
+  margin-left: 0.05rem;
+  margin-right: 0.1rem;
+  border-radius: 0.1rem;
+  overflow: hidden;
+
   .avatar {
     width: 100%;
     height: 100%;
@@ -39,8 +42,8 @@ const prefix = import.meta.env.BASE_URL
     top: 15%;
     left: 7%;
     writing-mode: vertical-lr;
-    font-size: 1vh;
-    border-right: 0.2vh rgba(250, 250, 210, 1) solid;
+    font-size: 0.18rem;
+    border-right: 0.02rem rgba(250, 250, 210, 1) solid;
     color: rgba(250, 250, 210, 1);
     background: rgba(0, 0, 0, 0.2);
   }
@@ -48,8 +51,8 @@ const prefix = import.meta.env.BASE_URL
     position: absolute;
     top: 0;
     left: 0;
-    width: 12vh;
-    height: 16vh;
+    width: 2.1rem;
+    height: 2.8rem;
     clip-path: polygon(5% 5%, 95% 5%, 95% 95%, 5% 95%, 5% 5%, 0 0, 0 100%, 100% 100%, 100% 0, 0 0);
     &-0 {
       background: rgba(250, 250, 210, 1);
@@ -58,7 +61,7 @@ const prefix = import.meta.env.BASE_URL
       background: rgba(128, 128, 255, 1);
     }
     &-2 {
-      background: rgba(0, 0, 0, 1);
+      background: rgba(64, 64, 64, 1);
     }
     &-3 {
       background: rgba(255, 255, 255, 1);

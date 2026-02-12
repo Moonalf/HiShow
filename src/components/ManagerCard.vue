@@ -28,6 +28,8 @@ const prefix = import.meta.env.BASE_URL
   justify-content: center;
   position: relative;
   border-radius: 50%;
+  overflow: hidden;
+
   .avatar {
     width: 100%;
     height: 100%;
@@ -36,21 +38,20 @@ const prefix = import.meta.env.BASE_URL
     object-fit: cover;
   }
   .name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 100%;
-    border-radius: 0 0% 50% 50%;
-    color: white;
+    height: 25%;
+    padding-top: 0.05rem;
     background-color: black;
+    color: white;
     font-weight: bold;
     text-align: center;
-    font-size: 1.2vh;
-    padding-bottom: 7%;
-    clip-path: polygon(0 75%, 100% 75%, 100% 95%, 0 95%);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    font-size: 0.2rem;
   }
 }
 </style>

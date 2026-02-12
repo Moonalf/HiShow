@@ -917,6 +917,87 @@ export default [
     ],
     shows: [
       {
+        title: '向阳而生（微电影）',
+        cover: 'shows/xyes/cover.webp',
+        introbg: 'shows/xyes/introbg.webp',
+        intros: [
+          '每一次勇敢的发声，都是希望的开始。',
+          '那支刻着母亲劳模荣光的钢笔，是苏念唯一的念想，却被江若盯上——她以孟佳父母的工作相逼，让明辨是非的孟佳成了偷笔的“帮凶”。 苏念撞见钢笔在江若手中，讨要却反遭霸凌，求老师帮忙却因对方背景雄厚遭到敷行，就连知情人孟佳也怕父母失业不敢作证。这只钢笔，最后能否物归原主？',
+        ],
+        producers: [
+          {
+            duty: '导演',
+            name: '皮蛋',
+            avatar: '',
+          },
+          {
+            duty: '制片',
+            name: '萧忠凯',
+            avatar: 'members/2025-2026/xiaozk.webp',
+          },
+          {
+            duty: '制片',
+            name: '李诗缈',
+            avatar: 'members/2025-2026/lism.webp',
+          },
+        ],
+        casts: [
+          {
+            character: '苏念',
+            name: '曹润栀',
+            avatar: '',
+          },
+          {
+            character: '江若',
+            name: '李诗缈',
+            avatar: '',
+          },
+          {
+            character: '孟佳',
+            name: '崔馨允',
+            avatar: '',
+          },
+          {
+            character: '周凯',
+            name: '张随阳',
+            avatar: '',
+          },
+          {
+            character: '主任',
+            name: '韩雨洁',
+            avatar: '',
+          },
+          {
+            character: '刘老师',
+            name: '萧忠凯',
+            avatar: '',
+          },
+          {
+            character: '江父',
+            name: '张普彧',
+            avatar: '',
+          },
+          {
+            character: '调查组组长',
+            name: '孔德洋',
+            avatar: '',
+          },
+          {
+            character: '陆星',
+            name: '谢德夏',
+            avatar: '',
+          },
+        ],
+        photos: [
+          'shows/xyes/001.webp',
+          'shows/xyes/002.webp',
+          'shows/xyes/003.webp',
+          'shows/xyes/004.webp',
+          'shows/xyes/005.webp',
+          'shows/xyes/006.webp',
+        ],
+      },
+      {
         title: '无证之罪',
         cover: 'shows/wzzz/cover.webp',
         introbg: 'shows/wzzz/introbg.webp',

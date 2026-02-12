@@ -63,12 +63,12 @@ onDeactivated(() => {
   align-items: center;
   justify-content: flex-start;
   position: relative;
-  width: min(100vw, 50vh);
-  height: calc(min(100vw, 50vh) / 3);
+  width: 7.5rem;
+  height: calc(7.5rem / 3);
   .banner_wrap {
     position: absolute;
     top: 0;
-    width: min(100vw, 50vh);
+    width: 7.5rem;
     height: 100%;
     transition: left 0.5s ease-in-out;
     img {
@@ -76,7 +76,7 @@ onDeactivated(() => {
       object-fit: contain;
     }
     &.ready {
-      left: calc(1 * min(100vw, 50vh));
+      left: calc(1 * 7.5rem);
       opacity: 0;
     }
     &.appear {
@@ -84,7 +84,7 @@ onDeactivated(() => {
       opacity: 1;
     }
     &.fade {
-      left: calc(-1 * min(100vw, 50vh));
+      left: calc(-1 * 7.5rem);
       opacity: 1;
     }
   }

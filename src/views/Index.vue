@@ -27,29 +27,29 @@ defineOptions({
 <style lang="less" scoped>
 .index_page {
   box-sizing: border-box;
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 85vh;
-  padding-bottom: 7vh;
   overflow-x: hidden;
   overflow-y: auto;
 
   .title {
     width: 90%;
-    margin: 2vh 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
     text-align: left;
-    text-indent: 1vh;
-    font-size: 2vh;
+    text-indent: 0.2rem;
+    font-size: 0.3rem;
     font-weight: bold;
-    border-left: 0.5vh solid black;
+    border-left: 0.1rem solid black;
   }
   .content {
     width: 90%;
     text-align: justify;
-    text-indent: 1.5vh;
-    font-size: 1.5vh;
+    text-indent: 0.4rem;
+    font-size: 0.24rem;
   }
 }
 </style>
