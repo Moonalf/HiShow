@@ -43,6 +43,7 @@ html {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+        position: relative;
         width: 7.5rem;
         height: 100vh;
         margin: 0 auto;

@@ -16,9 +16,139 @@ export default [
           '海树话剧社原创作品，由首任社长李尧创作，历经多次展演，广受好评。',
           '作品编织一道时空的梦，将百年前新文化运动与当代生活相连接，追忆革命先烈，赓续红色血脉，弘扬时代精神。',
         ],
-        producers: [],
-        casts: [],
-        photos: [],
+        producers: [
+          {
+            duty: '编剧|导演',
+            name: '李尧',
+            avatar: 'members/2021-2022/liy.webp',
+          },
+          {
+            duty: '事务',
+            name: '杨旖旎',
+            avatar: '',
+          },
+          {
+            duty: '事务',
+            name: '许诺',
+            avatar: '',
+          },
+          {
+            duty: '事务',
+            name: '崔涛镛',
+            avatar: '',
+          },
+          {
+            duty: '事务',
+            name: '郝与甘',
+            avatar: '',
+          },
+          {
+            duty: '事务',
+            name: '赵莉娜',
+            avatar: '',
+          },
+          {
+            duty: '场务',
+            name: '任泽涛',
+            avatar: '',
+          },
+          {
+            duty: '场务',
+            name: '廖柏淇',
+            avatar: '',
+          },
+          {
+            duty: '场务',
+            name: '郭新澳',
+            avatar: '',
+          },
+          {
+            duty: '场务',
+            name: '贾子琦',
+            avatar: 'members/2021-2022/jiazq.webp',
+          },
+          {
+            duty: '场务',
+            name: '孟宇辰',
+            avatar: '',
+          },
+        ],
+        casts: [
+          {
+            character: '李大钊',
+            name: '张晨旭',
+            avatar: 'members/2021-2022/zhangcx.webp',
+          },
+          {
+            character: '陈延年',
+            name: '王徐喆',
+            avatar: '',
+          },
+          {
+            character: '陈乔年',
+            name: '黄亚平',
+            avatar: '',
+          },
+          {
+            character: '士兵甲',
+            name: '贺曦',
+            avatar: '',
+          },
+          {
+            character: '士兵乙',
+            name: '王勋楚',
+            avatar: 'members/2021-2022/wangxc.webp',
+          },
+          {
+            character: '路人甲',
+            name: '邵泽敏',
+            avatar: 'members/2021-2022/shaozm.webp',
+          },
+          {
+            character: '路人甲母亲',
+            name: '何婧',
+            avatar: '',
+          },
+          {
+            character: '学生甲',
+            name: '谢俊安',
+            avatar: 'members/2021-2022/xieja.webp',
+          },
+          {
+            character: '学生乙',
+            name: '刘润芝',
+            avatar: '',
+          },
+          {
+            character: '村干部',
+            name: '梁琨',
+            avatar: '',
+          },
+          {
+            character: '乡村教师',
+            name: '刘曦',
+            avatar: '',
+          },
+          {
+            character: '乡村教师',
+            name: '王芳青',
+            avatar: '',
+          },
+          {
+            character: '农民甲',
+            name: '马旭阳',
+            avatar: '',
+          },
+        ],
+        photos: [
+          'shows/yybn/000.webp',
+          'shows/yybn/001.webp',
+          'shows/yybn/002.webp',
+          'shows/yybn/003.webp',
+          'shows/yybn/004.webp',
+          'shows/yybn/005.webp',
+          'shows/yybn/006.webp',
+        ],
       },
     ],
   },
@@ -101,7 +231,12 @@ export default [
             avatar: 'members/2022-2023/shaozm.webp',
           },
           {
-            character: '王大爷/士兵乙',
+            character: '陈乔年/士兵乙',
+            name: '高晨曦',
+            avatar: '',
+          },
+          {
+            character: '王大爷/士兵丙',
             name: '张纯鑫',
             avatar: 'members/2022-2023/zhangcx.webp',
           },

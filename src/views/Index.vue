@@ -13,6 +13,9 @@
     </div>
     <div class="content">其实网站也是开源的，有心者可接力维护：</div>
     <div class="content"><u>https://github.com/Moonalf/HiShow</u></div>
+    <!-- <div class="first_poster">
+      <img src="/common/first_poster.webp" alt="" />
+    </div> -->
   </div>
 </template>
 
@@ -31,6 +34,7 @@ defineOptions({
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
   width: 100%;
   overflow-x: hidden;
   overflow-y: auto;
@@ -44,12 +48,29 @@ defineOptions({
     font-size: 0.3rem;
     font-weight: bold;
     border-left: 0.1rem solid black;
+    z-index: 1;
   }
   .content {
     width: 90%;
     text-align: justify;
     text-indent: 0.4rem;
     font-size: 0.24rem;
+    z-index: 1;
+  }
+
+  .first_poster {
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    width: 7.5rem;
+    height: auto;
+    z-index: 0;
+    opacity: 0.05;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
   }
 }
 </style>

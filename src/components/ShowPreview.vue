@@ -140,7 +140,7 @@ const ca_rows = ref(Math.ceil(props.show.casts.length / ca_col))
     }
     .intro {
       width: 100%;
-      font-size: 0.26rem;
+      font-size: 0.24rem;
       color: rgba(250, 250, 210, 1);
       text-indent: 0.4rem;
       text-align: justify;

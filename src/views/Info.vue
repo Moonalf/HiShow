@@ -94,6 +94,7 @@ const handleScroll = () => {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding-bottom: 0.5rem;
   overflow-x: hidden;
   overflow-y: auto;
 
