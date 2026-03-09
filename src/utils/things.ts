@@ -25,42 +25,42 @@ export default [
           {
             duty: '事务',
             name: '杨旖旎',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             duty: '事务',
             name: '许诺',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             duty: '事务',
             name: '崔涛镛',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             duty: '事务',
             name: '郝与甘',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             duty: '事务',
             name: '赵莉娜',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             duty: '场务',
             name: '任泽涛',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             duty: '场务',
             name: '廖柏淇',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             duty: '场务',
             name: '郭新澳',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             duty: '场务',
@@ -70,7 +70,7 @@ export default [
           {
             duty: '场务',
             name: '孟宇辰',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
         ],
         casts: [
@@ -82,17 +82,17 @@ export default [
           {
             character: '陈延年',
             name: '王徐喆',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             character: '陈乔年',
             name: '黄亚平',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             character: '士兵甲',
             name: '贺曦',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             character: '士兵乙',
@@ -107,7 +107,7 @@ export default [
           {
             character: '路人甲母亲',
             name: '何婧',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             character: '学生甲',
@@ -117,27 +117,27 @@ export default [
           {
             character: '学生乙',
             name: '刘润芝',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             character: '村干部',
             name: '梁琨',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             character: '乡村教师',
             name: '刘曦',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             character: '乡村教师',
             name: '王芳青',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             character: '农民甲',
             name: '马旭阳',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
         ],
         photos: [
@@ -161,7 +161,7 @@ export default [
       },
       {
         name: 'Hao',
-        avatar: '',
+        avatar: 'members/default_member_m.webp',
       },
       {
         name: 'Barry',
@@ -196,7 +196,7 @@ export default [
           {
             duty: '舞美',
             name: '郝与甘',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             duty: '宣发',
@@ -206,7 +206,7 @@ export default [
           {
             duty: '场务',
             name: '宋乐佳',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
         ],
         casts: [
@@ -233,7 +233,7 @@ export default [
           {
             character: '陈乔年/士兵乙',
             name: '高晨曦',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             character: '王大爷/士兵丙',
@@ -318,7 +318,7 @@ export default [
           {
             duty: '场务',
             name: '柴新越',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
         ],
         casts: [
@@ -546,7 +546,7 @@ export default [
           {
             duty: '摄影',
             name: '龚正',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
         ],
         casts: [
@@ -660,12 +660,12 @@ export default [
           {
             duty: '舞美',
             name: '丁晗',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             duty: '宣发',
             name: '孙袁缘',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             duty: '场务',
@@ -756,7 +756,7 @@ export default [
           {
             duty: '编剧',
             name: '王婕',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             duty: '导演|舞美',
@@ -993,7 +993,7 @@ export default [
           {
             duty: '导演',
             name: '孟晨晨',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             duty: '导演',
@@ -1008,7 +1008,7 @@ export default [
           {
             duty: '场务',
             name: '董宏基',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             duty: '顾问',
@@ -1063,7 +1063,7 @@ export default [
           {
             duty: '导演',
             name: '皮蛋',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             duty: '制片',
@@ -1080,47 +1080,47 @@ export default [
           {
             character: '苏念',
             name: '曹润栀',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             character: '江若',
             name: '李诗缈',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             character: '孟佳',
             name: '崔馨允',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             character: '周凯',
             name: '张随阳',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             character: '主任',
             name: '韩雨洁',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             character: '刘老师',
             name: '萧忠凯',
-            avatar: '',
+            avatar: 'members/2025-2026/xzk.webp',
           },
           {
             character: '江父',
             name: '张普彧',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             character: '调查组组长',
             name: '孔德洋',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             character: '陆星',
             name: '谢德夏',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
         ],
         photos: [
@@ -1145,17 +1145,17 @@ export default [
           {
             duty: '导演',
             name: '王驾炜',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             duty: '编剧',
             name: '陈思宇',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
           {
             duty: '场务',
             name: '黄陆',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
         ],
         casts: [
@@ -1212,12 +1212,12 @@ export default [
           {
             duty: '导演',
             name: '吴怡',
-            avatar: '',
+            avatar: 'members/default_member_w.webp',
           },
           {
             duty: '编剧',
             name: '王紫诚',
-            avatar: '',
+            avatar: 'members/default_member_m.webp',
           },
         ],
         casts: [
